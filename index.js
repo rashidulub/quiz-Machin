@@ -77,7 +77,7 @@ const displayQuiz = (data) => {
 
 // EventListener for quiz submit button
 submitQuiz.addEventListener("click", () => {
-  console.log('click')
+  
   if (answers.length < 6) {
     return;
   }
@@ -185,4 +185,4 @@ submitQuiz.addEventListener("click", () => {
     clearTimeout(x);
   }, 1500);
   window.scrollTo(0, 0);
-});
+}); 
