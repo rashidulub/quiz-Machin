@@ -186,3 +186,8 @@ submitQuiz.addEventListener("click", () => {
   }, 1500);
   window.scrollTo(0, 0);
 }); 
+
+
+document.getElementById('blogBtn').addEventListener('click',function(){
+  window.location.href='blog.html'
+})
