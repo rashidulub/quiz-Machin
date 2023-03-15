@@ -125,7 +125,7 @@ submitQuiz.addEventListener("click", () => {
       ])
     );
   } else {
-    localStorage.getItem(
+    localStorage.setItem(
       "results",
       JSON.stringify([
         {
