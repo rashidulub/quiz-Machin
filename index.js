@@ -111,7 +111,7 @@ submitQuiz.addEventListener("click", () => {
   }
 
   // data setting on local storage and getting data from local storage
-  let storage = JSON.parse(localStorage.getItem("result"));
+  let storage = JSON.parse(localStorage.getItem("results"));
   if (storage) {
     localStorage.setItem(
       "results",
@@ -125,7 +125,7 @@ submitQuiz.addEventListener("click", () => {
       ])
     );
   } else {
-    localStorage.setItem(
+    localStorage.getItem(
       "results",
       JSON.stringify([
         {
